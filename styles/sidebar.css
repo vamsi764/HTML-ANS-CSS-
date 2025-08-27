@@ -1,0 +1,42 @@
+.sidebar
+{
+    position: fixed;
+    left: 0;
+    top:56px;
+    bottom: 0;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+    align-items: center;
+    background-color: white;
+    padding-top: 4px;
+    border-left: 1px solid lightgray;
+   border-left: 1px solid lightgray;
+}
+.sidebar_link
+{
+    height: 74px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+    cursor: pointer;
+    /* padding:8px; */
+    
+}
+.sidebar_link:hover{
+    background-color: rgb(196, 195, 195);
+}
+.sidebar_link .home-logo,.sidebar_link .explore-logo,.sidebar_link .subscriptions-logo,.sidebar_link .originals-logo,.sidebar_link .youtube-music-logo,.sidebar_link .library-logo
+{
+    height: 24px;
+    margin-bottom: 6.5px;
+}
+.sidebar_link .tag
+{
+    font-size: 12px;
+    white-space: nowrap;
+}
